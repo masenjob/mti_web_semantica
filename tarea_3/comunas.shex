@@ -1,0 +1,28 @@
+##ShEx
+### comunas
+
+prefix :       <http://example.org/>
+prefix shex:      <http://shex.example.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix schema: <http://schema.org/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+shex:region {
+  rdf:type	[ :region ];
+    schema:name    xsd:string  ;
+    schema:id   xsd:string
+}
+
+shex:provincia {
+  rdf:type	[ :provincia ];
+    schema:name   xsd:string  ;
+    schema:id        xsd:string  ;
+    schema:en_region  @shex:region *
+}
+
+shex:comuna {
+  rdf:type	[ :comuna ]	;
+    schema:name     xsd:string  ;
+    schema:id       xsd:string  ;
+    schema:en_provincia  @shex:provincia *
+}

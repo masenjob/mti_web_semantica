@@ -1,0 +1,23 @@
+## ShEx
+### red_vial
+
+prefix :       <http://example.org/>
+prefix shex:      <http://shex.example.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix schema: <http://schema.org/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+shex:region {
+    rdf:type  [ :region ] ;
+    schema:name    xsd:string  ;
+    schema:num_region   xsd:string
+}
+
+shex:redvial {
+    rdf:type    [ :red_vial ]   ;
+    schema:en_region     @shex:region*   ;
+    schema:tipo_carpeta xsd:string  ;
+    schema:tipo_red     xsd:string  ;
+    schema:kilometros   xsd:string  ;
+    schema:año          xsd:string  ;
+}

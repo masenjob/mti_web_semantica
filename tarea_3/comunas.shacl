@@ -1,0 +1,63 @@
+## ShaCL
+### comunas
+
+prefix :       <http://example.org/>
+prefix sh: <http://www.w3.org/ns/shacl#>
+prefix rdf: 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix schema:	<http://schema.org/>
+prefix xsd:		<http://www.w3.org/2001/XMLSchema#>
+
+:region_shape a sh:NodeShape;
+    sh:targetClass  :region ;
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path schema:id ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ].
+
+:provincia_shape  a sh:NodeShape;
+    sh:targetClass  :provincia ;
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path schema:id ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path     schema:en_region ;
+        sh:nodeKind sh:IRI ;
+        sh:class    :region ;
+    ].
+
+:comuna_shape  a sh:NodeShape;
+    sh:targetClass  :comuna ;
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path schema:id ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path     schema:en_provincia ;
+        sh:nodeKind sh:IRI ;
+        sh:class    :provincia ;
+    ].

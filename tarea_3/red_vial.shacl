@@ -1,0 +1,56 @@
+## SHACL
+### red_vial
+
+prefix : <http://example.org/>
+prefix sh: <http://www.w3.org/ns/shacl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix schema: <http://schema.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+:region_shape  a sh:NodeShape;
+    sh:targetClass  :region ;
+    sh:property [
+        sh:path schema:name ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path schema:num_region ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ].
+
+
+:redvial_shape a sh:NodeShape ;
+    sh:targetClass :red_vial  ;
+    sh:property [
+        sh:path     schema:en_region ;
+        sh:nodeKind sh:IRI ;
+        sh:class    :region ;
+    ];
+    sh:property [
+        sh:path schema:tipo_carpeta ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path schema:tipo_red ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path schema:kilometros ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ];
+    sh:property [
+        sh:path schema:año ;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:dataType xsd:string  ;
+    ].
