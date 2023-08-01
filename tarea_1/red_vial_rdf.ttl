@@ -1,0 +1,4536 @@
+prefix : <http://example.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+prefix schema: <http://schema.org/>
+:red_vial  rdf:type    rdfs:Class .
+:region     rdf:type    rdfs:Class .
+
+
+:Región_de_Tarapacá rdf:type  :region  ;
+    schema:name    "Región de Tarapacá"  ;
+    schema:num_region   "I"  .
+:Región_de_Antofagasta rdf:type  :region  ;
+    schema:name    "Región de Antofagasta"  ;
+    schema:num_region   "II"  .
+:Región_de_Atacama rdf:type  :region  ;
+    schema:name    "Región de Atacama"  ;
+    schema:num_region   "III"  .
+:Región_de_Coquimbo rdf:type  :region  ;
+    schema:name    "Región de Coquimbo"  ;
+    schema:num_region   "IV"  .
+:Región_de_Valparaíso rdf:type  :region  ;
+    schema:name    "Región de Valparaíso"  ;
+    schema:num_region   "V"  .
+:Región_del_Libertador_General_Bernardo_O_Higgins rdf:type  :region  ;
+    schema:name    "Región del Libertador General Bernardo O'Higgins"  ;
+    schema:num_region   "VI"  .
+:Región_del_Maule rdf:type  :region  ;
+    schema:name    "Región del Maule"  ;
+    schema:num_region   "VII"  .
+:Región_del_Biobío rdf:type  :region  ;
+    schema:name    "Región del Biobío"  ;
+    schema:num_region   "VIII"  .
+:Región_de_La_Araucanía rdf:type  :region  ;
+    schema:name    "Región de La Araucanía"  ;
+    schema:num_region   "IX"  .
+:Región_de_Los_Lagos rdf:type  :region  ;
+    schema:name    "Región de Los Lagos"  ;
+    schema:num_region   "X"  .
+:Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo rdf:type  :region  ;
+    schema:name    "Región de Aysén del General Carlos Ibáñez del Campo"  ;
+    schema:num_region   "XI"  .
+:Región_de_Magallanes_y_la_Antártica_Chilena rdf:type  :region  ;
+    schema:name    "Región de Magallanes y la Antártica Chilena"  ;
+    schema:num_region   "XII"  .
+:Región_Metropolitana_de_Santiago rdf:type  :region  ;
+    schema:name    "Región Metropolitana de Santiago"  ;
+    schema:num_region   "RM"  .
+:Región_de_Los_Ríos rdf:type  :region  ;
+    schema:name    "Región de Los Ríos"  ;
+    schema:num_region   "XIV"  .
+:Región_de_Arica_y_Parinacota rdf:type  :region  ;
+    schema:name    "Región de Arica y Parinacota"  ;
+    schema:num_region   "XV"  .
+:Región_de_Ñuble rdf:type  :region  ;
+    schema:name    "Región de Ñuble"  ;
+    schema:num_region   "XVI"  .
+:0 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.135,14"  ;
+    schema:año   "2015"  .
+:1 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,69"  ;
+    schema:año   "2015"  .
+:2 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,3"  ;
+    schema:año   "2015"  .
+:3 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:4 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "319,22"  ;
+    schema:año   "2015"  .
+:5 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "290,94"  ;
+    schema:año   "2015"  .
+:6 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "388,21"  ;
+    schema:año   "2015"  .
+:7 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.688,48"  ;
+    schema:año   "2015"  .
+:8 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.882,02"  ;
+    schema:año   "2015"  .
+:9 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "3,45"  ;
+    schema:año   "2015"  .
+:10 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:11 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:12 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "222,5"  ;
+    schema:año   "2015"  .
+:13 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "799,43"  ;
+    schema:año   "2015"  .
+:14 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "372,39"  ;
+    schema:año   "2015"  .
+:15 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.419,07"  ;
+    schema:año   "2015"  .
+:16 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.118,67"  ;
+    schema:año   "2015"  .
+:17 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "5,73"  ;
+    schema:año   "2015"  .
+:18 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:19 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:20 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "473,14"  ;
+    schema:año   "2015"  .
+:21 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "2.375,35"  ;
+    schema:año   "2015"  .
+:22 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "616,77"  ;
+    schema:año   "2015"  .
+:23 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.310,6"  ;
+    schema:año   "2015"  .
+:24 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.309,27"  ;
+    schema:año   "2015"  .
+:25 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "31,37"  ;
+    schema:año   "2015"  .
+:26 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "8,25"  ;
+    schema:año   "2015"  .
+:27 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "67,02"  ;
+    schema:año   "2015"  .
+:28 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "204,96"  ;
+    schema:año   "2015"  .
+:29 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "834,58"  ;
+    schema:año   "2015"  .
+:30 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.797,77"  ;
+    schema:año   "2015"  .
+:31 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "800,29"  ;
+    schema:año   "2015"  .
+:32 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.169,9"  ;
+    schema:año   "2015"  .
+:33 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "170,18"  ;
+    schema:año   "2015"  .
+:34 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "22,45"  ;
+    schema:año   "2015"  .
+:35 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "11,09"  ;
+    schema:año   "2015"  .
+:36 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.349,15"  ;
+    schema:año   "2015"  .
+:37 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:38 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "423,45"  ;
+    schema:año   "2015"  .
+:39 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "250,85"  ;
+    schema:año   "2015"  .
+:40 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.223,44"  ;
+    schema:año   "2015"  .
+:41 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "59,92"  ;
+    schema:año   "2015"  .
+:42 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "54,17"  ;
+    schema:año   "2015"  .
+:43 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "25,06"  ;
+    schema:año   "2015"  .
+:44 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "617,06"  ;
+    schema:año   "2015"  .
+:45 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "66,08"  ;
+    schema:año   "2015"  .
+:46 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "735,43"  ;
+    schema:año   "2015"  .
+:47 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "695,89"  ;
+    schema:año   "2015"  .
+:48 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.566,11"  ;
+    schema:año   "2015"  .
+:49 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "168,07"  ;
+    schema:año   "2015"  .
+:50 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "74,65"  ;
+    schema:año   "2015"  .
+:51 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "86,95"  ;
+    schema:año   "2015"  .
+:52 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "452,48"  ;
+    schema:año   "2015"  .
+:53 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "300,16"  ;
+    schema:año   "2015"  .
+:54 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.772,15"  ;
+    schema:año   "2015"  .
+:55 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.604,72"  ;
+    schema:año   "2015"  .
+:56 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "2.134,1"  ;
+    schema:año   "2015"  .
+:57 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "161,16"  ;
+    schema:año   "2015"  .
+:58 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "35,18"  ;
+    schema:año   "2015"  .
+:59 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "15,32"  ;
+    schema:año   "2015"  .
+:60 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "446,06"  ;
+    schema:año   "2015"  .
+:61 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "69,84"  ;
+    schema:año   "2015"  .
+:62 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "5.679,23"  ;
+    schema:año   "2015"  .
+:63 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.442,14"  ;
+    schema:año   "2015"  .
+:64 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.480,21"  ;
+    schema:año   "2015"  .
+:65 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "106,7"  ;
+    schema:año   "2015"  .
+:66 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "97,23"  ;
+    schema:año   "2015"  .
+:67 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "20,78"  ;
+    schema:año   "2015"  .
+:68 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "380,07"  ;
+    schema:año   "2015"  .
+:69 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "350,49"  ;
+    schema:año   "2015"  .
+:70 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "7.066,09"  ;
+    schema:año   "2015"  .
+:71 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.499,78"  ;
+    schema:año   "2015"  .
+:72 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.481,59"  ;
+    schema:año   "2015"  .
+:73 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "219,69"  ;
+    schema:año   "2015"  .
+:74 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "49,6"  ;
+    schema:año   "2015"  .
+:75 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:76 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "486,94"  ;
+    schema:año   "2015"  .
+:77 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,7"  ;
+    schema:año   "2015"  .
+:78 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "4.784,14"  ;
+    schema:año   "2015"  .
+:79 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "426,06"  ;
+    schema:año   "2015"  .
+:80 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "236,45"  ;
+    schema:año   "2015"  .
+:81 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "150,87"  ;
+    schema:año   "2015"  .
+:82 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:83 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:84 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:85 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "269,58"  ;
+    schema:año   "2015"  .
+:86 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.038,34"  ;
+    schema:año   "2015"  .
+:87 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "203,24"  ;
+    schema:año   "2015"  .
+:88 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,88"  ;
+    schema:año   "2015"  .
+:89 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "604,48"  ;
+    schema:año   "2015"  .
+:90 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:91 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:92 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "152,57"  ;
+    schema:año   "2015"  .
+:93 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "156,43"  ;
+    schema:año   "2015"  .
+:94 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.146,67"  ;
+    schema:año   "2015"  .
+:95 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "278,55"  ;
+    schema:año   "2015"  .
+:96 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.237,07"  ;
+    schema:año   "2015"  .
+:97 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "134,38"  ;
+    schema:año   "2015"  .
+:98 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "85,89"  ;
+    schema:año   "2015"  .
+:99 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "42,8"  ;
+    schema:año   "2015"  .
+:100 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "840,92"  ;
+    schema:año   "2015"  .
+:101 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,54"  ;
+    schema:año   "2015"  .
+:102 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "273,02"  ;
+    schema:año   "2015"  .
+:103 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "163,29"  ;
+    schema:año   "2015"  .
+:104 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "749,41"  ;
+    schema:año   "2015"  .
+:105 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "72,82"  ;
+    schema:año   "2015"  .
+:106 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "99,29"  ;
+    schema:año   "2015"  .
+:107 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:108 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "330,71"  ;
+    schema:año   "2015"  .
+:109 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "4,93"  ;
+    schema:año   "2015"  .
+:110 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.973,77"  ;
+    schema:año   "2015"  .
+:111 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "336,23"  ;
+    schema:año   "2015"  .
+:112 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "433"  ;
+    schema:año   "2015"  .
+:113 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,52"  ;
+    schema:año   "2015"  .
+:114 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:115 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2015"  .
+:116 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "229,38"  ;
+    schema:año   "2015"  .
+:117 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "233,83"  ;
+    schema:año   "2015"  .
+:118 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "134,53"  ;
+    schema:año   "2015"  .
+:119 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.153,59"  ;
+    schema:año   "2015"  .
+:120 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.135,14"  ;
+    schema:año   "2016"  .
+:121 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,69"  ;
+    schema:año   "2016"  .
+:122 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,3"  ;
+    schema:año   "2016"  .
+:123 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:124 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "345,12"  ;
+    schema:año   "2016"  .
+:125 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "373,39"  ;
+    schema:año   "2016"  .
+:126 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "366,18"  ;
+    schema:año   "2016"  .
+:127 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.580,45"  ;
+    schema:año   "2016"  .
+:128 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.880,66"  ;
+    schema:año   "2016"  .
+:129 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "3,45"  ;
+    schema:año   "2016"  .
+:130 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:131 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:132 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "277,77"  ;
+    schema:año   "2016"  .
+:133 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "771,36"  ;
+    schema:año   "2016"  .
+:134 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "369,85"  ;
+    schema:año   "2016"  .
+:135 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.395,77"  ;
+    schema:año   "2016"  .
+:136 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.146,16"  ;
+    schema:año   "2016"  .
+:137 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "3,8"  ;
+    schema:año   "2016"  .
+:138 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:139 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "46"  ;
+    schema:año   "2016"  .
+:140 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "492,97"  ;
+    schema:año   "2016"  .
+:141 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "2.186,03"  ;
+    schema:año   "2016"  .
+:142 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "749,97"  ;
+    schema:año   "2016"  .
+:143 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.374,1"  ;
+    schema:año   "2016"  .
+:144 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.333,21"  ;
+    schema:año   "2016"  .
+:145 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "30,86"  ;
+    schema:año   "2016"  .
+:146 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,75"  ;
+    schema:año   "2016"  .
+:147 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "67,02"  ;
+    schema:año   "2016"  .
+:148 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "314,26"  ;
+    schema:año   "2016"  .
+:149 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "852,84"  ;
+    schema:año   "2016"  .
+:150 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.688,67"  ;
+    schema:año   "2016"  .
+:151 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "758,73"  ;
+    schema:año   "2016"  .
+:152 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.152,29"  ;
+    schema:año   "2016"  .
+:153 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "187,79"  ;
+    schema:año   "2016"  .
+:154 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "22,45"  ;
+    schema:año   "2016"  .
+:155 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "11,09"  ;
+    schema:año   "2016"  .
+:156 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.401,87"  ;
+    schema:año   "2016"  .
+:157 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:158 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "429,54"  ;
+    schema:año   "2016"  .
+:159 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "237,78"  ;
+    schema:año   "2016"  .
+:160 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.223,3"  ;
+    schema:año   "2016"  .
+:161 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "59,92"  ;
+    schema:año   "2016"  .
+:162 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "54,31"  ;
+    schema:año   "2016"  .
+:163 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "25,06"  ;
+    schema:año   "2016"  .
+:164 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "657,85"  ;
+    schema:año   "2016"  .
+:165 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "61,04"  ;
+    schema:año   "2016"  .
+:166 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "716,5"  ;
+    schema:año   "2016"  .
+:167 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "678,7"  ;
+    schema:año   "2016"  .
+:168 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.576,51"  ;
+    schema:año   "2016"  .
+:169 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "168,11"  ;
+    schema:año   "2016"  .
+:170 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "74,65"  ;
+    schema:año   "2016"  .
+:171 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "86,95"  ;
+    schema:año   "2016"  .
+:172 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "533,29"  ;
+    schema:año   "2016"  .
+:173 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "284,29"  ;
+    schema:año   "2016"  .
+:174 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.708,81"  ;
+    schema:año   "2016"  .
+:175 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.592,62"  ;
+    schema:año   "2016"  .
+:176 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "2.196,91"  ;
+    schema:año   "2016"  .
+:177 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "138,86"  ;
+    schema:año   "2016"  .
+:178 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "39,78"  ;
+    schema:año   "2016"  .
+:179 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "24,49"  ;
+    schema:año   "2016"  .
+:180 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "501,21"  ;
+    schema:año   "2016"  .
+:181 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "63,64"  ;
+    schema:año   "2016"  .
+:182 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "6.197,34"  ;
+    schema:año   "2016"  .
+:183 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.522,63"  ;
+    schema:año   "2016"  .
+:184 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.554,67"  ;
+    schema:año   "2016"  .
+:185 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "106,3"  ;
+    schema:año   "2016"  .
+:186 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "96,8"  ;
+    schema:año   "2016"  .
+:187 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "52,45"  ;
+    schema:año   "2016"  .
+:188 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "399,07"  ;
+    schema:año   "2016"  .
+:189 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "333,99"  ;
+    schema:año   "2016"  .
+:190 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "6.958,29"  ;
+    schema:año   "2016"  .
+:191 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.499,78"  ;
+    schema:año   "2016"  .
+:192 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.520,95"  ;
+    schema:año   "2016"  .
+:193 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "223,94"  ;
+    schema:año   "2016"  .
+:194 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "51,84"  ;
+    schema:año   "2016"  .
+:195 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:196 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "584,73"  ;
+    schema:año   "2016"  .
+:197 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,7"  ;
+    schema:año   "2016"  .
+:198 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "5.229,88"  ;
+    schema:año   "2016"  .
+:199 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "380,48"  ;
+    schema:año   "2016"  .
+:200 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "236,29"  ;
+    schema:año   "2016"  .
+:201 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "151,03"  ;
+    schema:año   "2016"  .
+:202 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:203 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:204 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:205 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "285,94"  ;
+    schema:año   "2016"  .
+:206 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.021,98"  ;
+    schema:año   "2016"  .
+:207 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "203,24"  ;
+    schema:año   "2016"  .
+:208 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,88"  ;
+    schema:año   "2016"  .
+:209 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "598,99"  ;
+    schema:año   "2016"  .
+:210 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:211 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:212 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "196,57"  ;
+    schema:año   "2016"  .
+:213 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "134,73"  ;
+    schema:año   "2016"  .
+:214 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.129,86"  ;
+    schema:año   "2016"  .
+:215 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "278,55"  ;
+    schema:año   "2016"  .
+:216 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.373,6"  ;
+    schema:año   "2016"  .
+:217 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "135,74"  ;
+    schema:año   "2016"  .
+:218 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "85,89"  ;
+    schema:año   "2016"  .
+:219 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "42,8"  ;
+    schema:año   "2016"  .
+:220 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "860,95"  ;
+    schema:año   "2016"  .
+:221 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,54"  ;
+    schema:año   "2016"  .
+:222 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "271,3"  ;
+    schema:año   "2016"  .
+:223 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "185,01"  ;
+    schema:año   "2016"  .
+:224 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "774,92"  ;
+    schema:año   "2016"  .
+:225 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "64,17"  ;
+    schema:año   "2016"  .
+:226 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "99,29"  ;
+    schema:año   "2016"  .
+:227 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "10,81"  ;
+    schema:año   "2016"  .
+:228 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "392,71"  ;
+    schema:año   "2016"  .
+:229 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "4,93"  ;
+    schema:año   "2016"  .
+:230 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.889,03"  ;
+    schema:año   "2016"  .
+:231 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "336,23"  ;
+    schema:año   "2016"  .
+:232 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "433"  ;
+    schema:año   "2016"  .
+:233 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,52"  ;
+    schema:año   "2016"  .
+:234 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:235 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2016"  .
+:236 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "296,96"  ;
+    schema:año   "2016"  .
+:237 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "234,64"  ;
+    schema:año   "2016"  .
+:238 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "109,67"  ;
+    schema:año   "2016"  .
+:239 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.110,06"  ;
+    schema:año   "2016"  .
+:240 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.135,13"  ;
+    schema:año   "2017"  .
+:241 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,69"  ;
+    schema:año   "2017"  .
+:242 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,3"  ;
+    schema:año   "2017"  .
+:243 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:244 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "432,14"  ;
+    schema:año   "2017"  .
+:245 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "385,15"  ;
+    schema:año   "2017"  .
+:246 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "319,79"  ;
+    schema:año   "2017"  .
+:247 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.554,87"  ;
+    schema:año   "2017"  .
+:248 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.902,56"  ;
+    schema:año   "2017"  .
+:249 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "3,45"  ;
+    schema:año   "2017"  .
+:250 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:251 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:252 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "403,78"  ;
+    schema:año   "2017"  .
+:253 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "697,57"  ;
+    schema:año   "2017"  .
+:254 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "347,63"  ;
+    schema:año   "2017"  .
+:255 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.343,86"  ;
+    schema:año   "2017"  .
+:256 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.177,37"  ;
+    schema:año   "2017"  .
+:257 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "3,8"  ;
+    schema:año   "2017"  .
+:258 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:259 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "46"  ;
+    schema:año   "2017"  .
+:260 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "688,46"  ;
+    schema:año   "2017"  .
+:261 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "2.424,02"  ;
+    schema:año   "2017"  .
+:262 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.126,27"  ;
+    schema:año   "2017"  .
+:263 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.160,73"  ;
+    schema:año   "2017"  .
+:264 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.333,21"  ;
+    schema:año   "2017"  .
+:265 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "30,86"  ;
+    schema:año   "2017"  .
+:266 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,75"  ;
+    schema:año   "2017"  .
+:267 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "92,79"  ;
+    schema:año   "2017"  .
+:268 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "349,43"  ;
+    schema:año   "2017"  .
+:269 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "900,72"  ;
+    schema:año   "2017"  .
+:270 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.597,7"  ;
+    schema:año   "2017"  .
+:271 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "740,88"  ;
+    schema:año   "2017"  .
+:272 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.177,29"  ;
+    schema:año   "2017"  .
+:273 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "188,24"  ;
+    schema:año   "2017"  .
+:274 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "22,45"  ;
+    schema:año   "2017"  .
+:275 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "11,09"  ;
+    schema:año   "2017"  .
+:276 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.596"  ;
+    schema:año   "2017"  .
+:277 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:278 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "421,19"  ;
+    schema:año   "2017"  .
+:279 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "375,85"  ;
+    schema:año   "2017"  .
+:280 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.240,32"  ;
+    schema:año   "2017"  .
+:281 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "57,58"  ;
+    schema:año   "2017"  .
+:282 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "54,31"  ;
+    schema:año   "2017"  .
+:283 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "25,06"  ;
+    schema:año   "2017"  .
+:284 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "701,76"  ;
+    schema:año   "2017"  .
+:285 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "56,69"  ;
+    schema:año   "2017"  .
+:286 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "688,35"  ;
+    schema:año   "2017"  .
+:287 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "649,49"  ;
+    schema:año   "2017"  .
+:288 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.583,33"  ;
+    schema:año   "2017"  .
+:289 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "168,11"  ;
+    schema:año   "2017"  .
+:290 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "74,65"  ;
+    schema:año   "2017"  .
+:291 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "86,95"  ;
+    schema:año   "2017"  .
+:292 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "605,72"  ;
+    schema:año   "2017"  .
+:293 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "274,2"  ;
+    schema:año   "2017"  .
+:294 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.658,09"  ;
+    schema:año   "2017"  .
+:295 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.574,18"  ;
+    schema:año   "2017"  .
+:296 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "2.219,04"  ;
+    schema:año   "2017"  .
+:297 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "138,86"  ;
+    schema:año   "2017"  .
+:298 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "39,78"  ;
+    schema:año   "2017"  .
+:299 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "24,49"  ;
+    schema:año   "2017"  .
+:300 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "537,78"  ;
+    schema:año   "2017"  .
+:301 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "68,74"  ;
+    schema:año   "2017"  .
+:302 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "6.219,06"  ;
+    schema:año   "2017"  .
+:303 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.757,62"  ;
+    schema:año   "2017"  .
+:304 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.583,24"  ;
+    schema:año   "2017"  .
+:305 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "105,53"  ;
+    schema:año   "2017"  .
+:306 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "97,57"  ;
+    schema:año   "2017"  .
+:307 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "52,45"  ;
+    schema:año   "2017"  .
+:308 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "433,31"  ;
+    schema:año   "2017"  .
+:309 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "331,09"  ;
+    schema:año   "2017"  .
+:310 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "6.898,38"  ;
+    schema:año   "2017"  .
+:311 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.502,08"  ;
+    schema:año   "2017"  .
+:312 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.541,7"  ;
+    schema:año   "2017"  .
+:313 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "219,43"  ;
+    schema:año   "2017"  .
+:314 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "51,84"  ;
+    schema:año   "2017"  .
+:315 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:316 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "732,72"  ;
+    schema:año   "2017"  .
+:317 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,7"  ;
+    schema:año   "2017"  .
+:318 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "6.079,97"  ;
+    schema:año   "2017"  .
+:319 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "264,66"  ;
+    schema:año   "2017"  .
+:320 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "268,72"  ;
+    schema:año   "2017"  .
+:321 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "156,74"  ;
+    schema:año   "2017"  .
+:322 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:323 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:324 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:325 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "364,44"  ;
+    schema:año   "2017"  .
+:326 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.662,72"  ;
+    schema:año   "2017"  .
+:327 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "114,04"  ;
+    schema:año   "2017"  .
+:328 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,88"  ;
+    schema:año   "2017"  .
+:329 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "605,41"  ;
+    schema:año   "2017"  .
+:330 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:331 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:332 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "199,07"  ;
+    schema:año   "2017"  .
+:333 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "125,81"  ;
+    schema:año   "2017"  .
+:334 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.129,86"  ;
+    schema:año   "2017"  .
+:335 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "278,55"  ;
+    schema:año   "2017"  .
+:336 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.371,67"  ;
+    schema:año   "2017"  .
+:337 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "135,73"  ;
+    schema:año   "2017"  .
+:338 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "85,89"  ;
+    schema:año   "2017"  .
+:339 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "42,8"  ;
+    schema:año   "2017"  .
+:340 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "870,41"  ;
+    schema:año   "2017"  .
+:341 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,54"  ;
+    schema:año   "2017"  .
+:342 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "358"  ;
+    schema:año   "2017"  .
+:343 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "167,34"  ;
+    schema:año   "2017"  .
+:344 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "802,39"  ;
+    schema:año   "2017"  .
+:345 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "64,18"  ;
+    schema:año   "2017"  .
+:346 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "99,29"  ;
+    schema:año   "2017"  .
+:347 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "10,81"  ;
+    schema:año   "2017"  .
+:348 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "456,91"  ;
+    schema:año   "2017"  .
+:349 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "4,93"  ;
+    schema:año   "2017"  .
+:350 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.924,11"  ;
+    schema:año   "2017"  .
+:351 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "329,93"  ;
+    schema:año   "2017"  .
+:352 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "433"  ;
+    schema:año   "2017"  .
+:353 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,52"  ;
+    schema:año   "2017"  .
+:354 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:355 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2017"  .
+:356 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "450,34"  ;
+    schema:año   "2017"  .
+:357 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "186,38"  ;
+    schema:año   "2017"  .
+:358 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "104,67"  ;
+    schema:año   "2017"  .
+:359 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.009,94"  ;
+    schema:año   "2017"  .
+:360 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.144,97"  ;
+    schema:año   "2018"  .
+:361 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,81"  ;
+    schema:año   "2018"  .
+:362 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,39"  ;
+    schema:año   "2018"  .
+:363 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:364 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "483,47"  ;
+    schema:año   "2018"  .
+:365 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "410,24"  ;
+    schema:año   "2018"  .
+:366 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "308,58"  ;
+    schema:año   "2018"  .
+:367 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.479,62"  ;
+    schema:año   "2018"  .
+:368 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.902,48"  ;
+    schema:año   "2018"  .
+:369 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "4,53"  ;
+    schema:año   "2018"  .
+:370 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:371 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:372 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "441,58"  ;
+    schema:año   "2018"  .
+:373 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "746,29"  ;
+    schema:año   "2018"  .
+:374 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "338,63"  ;
+    schema:año   "2018"  .
+:375 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.265,34"  ;
+    schema:año   "2018"  .
+:376 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.116,32"  ;
+    schema:año   "2018"  .
+:377 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "2,73"  ;
+    schema:año   "2018"  .
+:378 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:379 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "46"  ;
+    schema:año   "2018"  .
+:380 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "809,65"  ;
+    schema:año   "2018"  .
+:381 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "2.434,49"  ;
+    schema:año   "2018"  .
+:382 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.150,1"  ;
+    schema:año   "2018"  .
+:383 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.093,43"  ;
+    schema:año   "2018"  .
+:384 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.356,06"  ;
+    schema:año   "2018"  .
+:385 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "34,58"  ;
+    schema:año   "2018"  .
+:386 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "4,51"  ;
+    schema:año   "2018"  .
+:387 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "90"  ;
+    schema:año   "2018"  .
+:388 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "478,67"  ;
+    schema:año   "2018"  .
+:389 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "863,91"  ;
+    schema:año   "2018"  .
+:390 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.551,7"  ;
+    schema:año   "2018"  .
+:391 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.001,31"  ;
+    schema:año   "2018"  .
+:392 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.183,73"  ;
+    schema:año   "2018"  .
+:393 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "183,1"  ;
+    schema:año   "2018"  .
+:394 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "22,45"  ;
+    schema:año   "2018"  .
+:395 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "11,09"  ;
+    schema:año   "2018"  .
+:396 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.631,53"  ;
+    schema:año   "2018"  .
+:397 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:398 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "413,69"  ;
+    schema:año   "2018"  .
+:399 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "371,5"  ;
+    schema:año   "2018"  .
+:400 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.237"  ;
+    schema:año   "2018"  .
+:401 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "47,5"  ;
+    schema:año   "2018"  .
+:402 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "52,76"  ;
+    schema:año   "2018"  .
+:403 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "25,06"  ;
+    schema:año   "2018"  .
+:404 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "770,22"  ;
+    schema:año   "2018"  .
+:405 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "41,89"  ;
+    schema:año   "2018"  .
+:406 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "673,87"  ;
+    schema:año   "2018"  .
+:407 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "625,26"  ;
+    schema:año   "2018"  .
+:408 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.610,54"  ;
+    schema:año   "2018"  .
+:409 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "163,28"  ;
+    schema:año   "2018"  .
+:410 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "76,89"  ;
+    schema:año   "2018"  .
+:411 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "86,95"  ;
+    schema:año   "2018"  .
+:412 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "756,88"  ;
+    schema:año   "2018"  .
+:413 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "253,91"  ;
+    schema:año   "2018"  .
+:414 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.509,45"  ;
+    schema:año   "2018"  .
+:415 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.567,33"  ;
+    schema:año   "2018"  .
+:416 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.385,79"  ;
+    schema:año   "2018"  .
+:417 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "121,99"  ;
+    schema:año   "2018"  .
+:418 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "38,28"  ;
+    schema:año   "2018"  .
+:419 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "18,86"  ;
+    schema:año   "2018"  .
+:420 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "381,6"  ;
+    schema:año   "2018"  .
+:421 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "36,31"  ;
+    schema:año   "2018"  .
+:422 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "3.431,24"  ;
+    schema:año   "2018"  .
+:423 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.016,5"  ;
+    schema:año   "2018"  .
+:424 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.581,05"  ;
+    schema:año   "2018"  .
+:425 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "87,67"  ;
+    schema:año   "2018"  .
+:426 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "106,03"  ;
+    schema:año   "2018"  .
+:427 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "52,45"  ;
+    schema:año   "2018"  .
+:428 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "481,06"  ;
+    schema:año   "2018"  .
+:429 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "328,82"  ;
+    schema:año   "2018"  .
+:430 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "6.864,49"  ;
+    schema:año   "2018"  .
+:431 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.502,08"  ;
+    schema:año   "2018"  .
+:432 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.599,59"  ;
+    schema:año   "2018"  .
+:433 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "215,33"  ;
+    schema:año   "2018"  .
+:434 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "52,84"  ;
+    schema:año   "2018"  .
+:435 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:436 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "826,93"  ;
+    schema:año   "2018"  .
+:437 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,7"  ;
+    schema:año   "2018"  .
+:438 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "5.961,41"  ;
+    schema:año   "2018"  .
+:439 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "261,69"  ;
+    schema:año   "2018"  .
+:440 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "290,6"  ;
+    schema:año   "2018"  .
+:441 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "155,94"  ;
+    schema:año   "2018"  .
+:442 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,02"  ;
+    schema:año   "2018"  .
+:443 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:444 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1"  ;
+    schema:año   "2018"  .
+:445 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "373,37"  ;
+    schema:año   "2018"  .
+:446 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.642,3"  ;
+    schema:año   "2018"  .
+:447 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "114,04"  ;
+    schema:año   "2018"  .
+:448 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,59"  ;
+    schema:año   "2018"  .
+:449 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "678,82"  ;
+    schema:año   "2018"  .
+:450 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,22"  ;
+    schema:año   "2018"  .
+:451 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:452 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "206,13"  ;
+    schema:año   "2018"  .
+:453 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "101,74"  ;
+    schema:año   "2018"  .
+:454 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.073,53"  ;
+    schema:año   "2018"  .
+:455 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "278,55"  ;
+    schema:año   "2018"  .
+:456 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.389,76"  ;
+    schema:año   "2018"  .
+:457 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "112,15"  ;
+    schema:año   "2018"  .
+:458 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "92,8"  ;
+    schema:año   "2018"  .
+:459 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "42,8"  ;
+    schema:año   "2018"  .
+:460 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "898,29"  ;
+    schema:año   "2018"  .
+:461 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,54"  ;
+    schema:año   "2018"  .
+:462 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "332,04"  ;
+    schema:año   "2018"  .
+:463 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "164,06"  ;
+    schema:año   "2018"  .
+:464 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "803,09"  ;
+    schema:año   "2018"  .
+:465 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "40,64"  ;
+    schema:año   "2018"  .
+:466 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "101,4"  ;
+    schema:año   "2018"  .
+:467 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "10,81"  ;
+    schema:año   "2018"  .
+:468 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "598,34"  ;
+    schema:año   "2018"  .
+:469 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "4,93"  ;
+    schema:año   "2018"  .
+:470 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.806,72"  ;
+    schema:año   "2018"  .
+:471 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "326,36"  ;
+    schema:año   "2018"  .
+:472 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "433"  ;
+    schema:año   "2018"  .
+:473 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,52"  ;
+    schema:año   "2018"  .
+:474 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:475 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2018"  .
+:476 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "552,87"  ;
+    schema:año   "2018"  .
+:477 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "153,81"  ;
+    schema:año   "2018"  .
+:478 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "104,67"  ;
+    schema:año   "2018"  .
+:479 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "939,98"  ;
+    schema:año   "2018"  .
+:480 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "810,27"  ;
+    schema:año   "2018"  .
+:481 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "33,35"  ;
+    schema:año   "2018"  .
+:482 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "6,23"  ;
+    schema:año   "2018"  .
+:483 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   """Caminos Básicos\r
+Intermedios"""  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,42"  ;
+    schema:año   "2018"  .
+:484 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "292,43"  ;
+    schema:año   "2018"  .
+:485 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "20,62"  ;
+    schema:año   "2018"  .
+:486 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.721,67"  ;
+    schema:año   "2018"  .
+:487 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "754,88"  ;
+    schema:año   "2018"  .
+:488 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.169,56"  ;
+    schema:año   "2019"  .
+:489 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,9"  ;
+    schema:año   "2019"  .
+:490 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,3"  ;
+    schema:año   "2019"  .
+:491 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:492 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "501,5"  ;
+    schema:año   "2019"  .
+:493 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "475,47"  ;
+    schema:año   "2019"  .
+:494 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "271,57"  ;
+    schema:año   "2019"  .
+:495 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.402,46"  ;
+    schema:año   "2019"  .
+:496 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.881,98"  ;
+    schema:año   "2019"  .
+:497 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "4,01"  ;
+    schema:año   "2019"  .
+:498 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,1"  ;
+    schema:año   "2019"  .
+:499 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:500 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "515,88"  ;
+    schema:año   "2019"  .
+:501 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "699,28"  ;
+    schema:año   "2019"  .
+:502 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "338,06"  ;
+    schema:año   "2019"  .
+:503 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.259,55"  ;
+    schema:año   "2019"  .
+:504 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.155,42"  ;
+    schema:año   "2019"  .
+:505 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "2,73"  ;
+    schema:año   "2019"  .
+:506 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:507 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "46"  ;
+    schema:año   "2019"  .
+:508 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "937,4"  ;
+    schema:año   "2019"  .
+:509 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "2.506,13"  ;
+    schema:año   "2019"  .
+:510 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.024,63"  ;
+    schema:año   "2019"  .
+:511 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.999,16"  ;
+    schema:año   "2019"  .
+:512 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.353,6"  ;
+    schema:año   "2019"  .
+:513 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "24,69"  ;
+    schema:año   "2019"  .
+:514 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "13,76"  ;
+    schema:año   "2019"  .
+:515 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "88,4"  ;
+    schema:año   "2019"  .
+:516 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "656,98"  ;
+    schema:año   "2019"  .
+:517 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "809,79"  ;
+    schema:año   "2019"  .
+:518 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.478,19"  ;
+    schema:año   "2019"  .
+:519 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "941,58"  ;
+    schema:año   "2019"  .
+:520 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.206,29"  ;
+    schema:año   "2019"  .
+:521 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "169,23"  ;
+    schema:año   "2019"  .
+:522 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "27,8"  ;
+    schema:año   "2019"  .
+:523 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "5,58"  ;
+    schema:año   "2019"  .
+:524 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.710,34"  ;
+    schema:año   "2019"  .
+:525 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:526 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "385,41"  ;
+    schema:año   "2019"  .
+:527 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "337,88"  ;
+    schema:año   "2019"  .
+:528 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.248,65"  ;
+    schema:año   "2019"  .
+:529 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "52,71"  ;
+    schema:año   "2019"  .
+:530 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "53,34"  ;
+    schema:año   "2019"  .
+:531 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "25,97"  ;
+    schema:año   "2019"  .
+:532 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "832,98"  ;
+    schema:año   "2019"  .
+:533 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "39,34"  ;
+    schema:año   "2019"  .
+:534 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "615,38"  ;
+    schema:año   "2019"  .
+:535 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "605,42"  ;
+    schema:año   "2019"  .
+:536 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.601,26"  ;
+    schema:año   "2019"  .
+:537 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "175,04"  ;
+    schema:año   "2019"  .
+:538 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "74,67"  ;
+    schema:año   "2019"  .
+:539 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "97,85"  ;
+    schema:año   "2019"  .
+:540 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "890,45"  ;
+    schema:año   "2019"  .
+:541 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "252,88"  ;
+    schema:año   "2019"  .
+:542 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.372,68"  ;
+    schema:año   "2019"  .
+:543 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.560,4"  ;
+    schema:año   "2019"  .
+:544 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.390,78"  ;
+    schema:año   "2019"  .
+:545 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "129,65"  ;
+    schema:año   "2019"  .
+:546 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "44,58"  ;
+    schema:año   "2019"  .
+:547 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "18,86"  ;
+    schema:año   "2019"  .
+:548 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "416,06"  ;
+    schema:año   "2019"  .
+:549 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "35"  ;
+    schema:año   "2019"  .
+:550 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "3.469,78"  ;
+    schema:año   "2019"  .
+:551 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.016,06"  ;
+    schema:año   "2019"  .
+:552 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.617,84"  ;
+    schema:año   "2019"  .
+:553 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "81,43"  ;
+    schema:año   "2019"  .
+:554 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "103,02"  ;
+    schema:año   "2019"  .
+:555 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "51,4"  ;
+    schema:año   "2019"  .
+:556 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "526,03"  ;
+    schema:año   "2019"  .
+:557 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "314,67"  ;
+    schema:año   "2019"  .
+:558 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "6.821,46"  ;
+    schema:año   "2019"  .
+:559 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.492,75"  ;
+    schema:año   "2019"  .
+:560 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.622,62"  ;
+    schema:año   "2019"  .
+:561 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "230,16"  ;
+    schema:año   "2019"  .
+:562 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "50,92"  ;
+    schema:año   "2019"  .
+:563 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:564 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "965,65"  ;
+    schema:año   "2019"  .
+:565 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,7"  ;
+    schema:año   "2019"  .
+:566 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "5.800,72"  ;
+    schema:año   "2019"  .
+:567 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "249,28"  ;
+    schema:año   "2019"  .
+:568 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "296,7"  ;
+    schema:año   "2019"  .
+:569 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "149,84"  ;
+    schema:año   "2019"  .
+:570 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,02"  ;
+    schema:año   "2019"  .
+:571 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:572 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "2,75"  ;
+    schema:año   "2019"  .
+:573 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "413,32"  ;
+    schema:año   "2019"  .
+:574 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.602,87"  ;
+    schema:año   "2019"  .
+:575 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "114,04"  ;
+    schema:año   "2019"  .
+:576 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,85"  ;
+    schema:año   "2019"  .
+:577 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "755,7"  ;
+    schema:año   "2019"  .
+:578 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,22"  ;
+    schema:año   "2019"  .
+:579 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:580 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "192,25"  ;
+    schema:año   "2019"  .
+:581 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "112,77"  ;
+    schema:año   "2019"  .
+:582 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.055,16"  ;
+    schema:año   "2019"  .
+:583 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "290,01"  ;
+    schema:año   "2019"  .
+:584 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.445,56"  ;
+    schema:año   "2019"  .
+:585 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "113,94"  ;
+    schema:año   "2019"  .
+:586 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "92,8"  ;
+    schema:año   "2019"  .
+:587 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "42,8"  ;
+    schema:año   "2019"  .
+:588 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "900,39"  ;
+    schema:año   "2019"  .
+:589 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,54"  ;
+    schema:año   "2019"  .
+:590 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "231,29"  ;
+    schema:año   "2019"  .
+:591 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "149,52"  ;
+    schema:año   "2019"  .
+:592 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "832,85"  ;
+    schema:año   "2019"  .
+:593 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "36,92"  ;
+    schema:año   "2019"  .
+:594 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "101,78"  ;
+    schema:año   "2019"  .
+:595 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "16,8"  ;
+    schema:año   "2019"  .
+:596 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "714,45"  ;
+    schema:año   "2019"  .
+:597 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "4,93"  ;
+    schema:año   "2019"  .
+:598 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.671,64"  ;
+    schema:año   "2019"  .
+:599 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "323,09"  ;
+    schema:año   "2019"  .
+:600 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "433,3"  ;
+    schema:año   "2019"  .
+:601 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,22"  ;
+    schema:año   "2019"  .
+:602 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:603 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2019"  .
+:604 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "636,64"  ;
+    schema:año   "2019"  .
+:605 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "146,25"  ;
+    schema:año   "2019"  .
+:606 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "152"  ;
+    schema:año   "2019"  .
+:607 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "869,62"  ;
+    schema:año   "2019"  .
+:608 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "833,16"  ;
+    schema:año   "2019"  .
+:609 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "28,49"  ;
+    schema:año   "2019"  .
+:610 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "6,23"  ;
+    schema:año   "2019"  .
+:611 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,42"  ;
+    schema:año   "2019"  .
+:612 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "326,94"  ;
+    schema:año   "2019"  .
+:613 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "17,46"  ;
+    schema:año   "2019"  .
+:614 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.672,54"  ;
+    schema:año   "2019"  .
+:615 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "773,25"  ;
+    schema:año   "2019"  .
+:616 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.170,26"  ;
+    schema:año   "2020"  .
+:617 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,79"  ;
+    schema:año   "2020"  .
+:618 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,01"  ;
+    schema:año   "2020"  .
+:619 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2020"  .
+:620 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "544,35"  ;
+    schema:año   "2020"  .
+:621 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "458,43"  ;
+    schema:año   "2020"  .
+:622 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "259,29"  ;
+    schema:año   "2020"  .
+:623 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Tarapacá  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.388,63"  ;
+    schema:año   "2020"  .
+:624 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.881,97"  ;
+    schema:año   "2020"  .
+:625 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "4,02"  ;
+    schema:año   "2020"  .
+:626 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,1"  ;
+    schema:año   "2020"  .
+:627 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2020"  .
+:628 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "536,69"  ;
+    schema:año   "2020"  .
+:629 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "698,67"  ;
+    schema:año   "2020"  .
+:630 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "336,86"  ;
+    schema:año   "2020"  .
+:631 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Antofagasta  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.240,55"  ;
+    schema:año   "2020"  .
+:632 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.157,22"  ;
+    schema:año   "2020"  .
+:633 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "2,98"  ;
+    schema:año   "2020"  .
+:634 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,01"  ;
+    schema:año   "2020"  .
+:635 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "46"  ;
+    schema:año   "2020"  .
+:636 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.094,56"  ;
+    schema:año   "2020"  .
+:637 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "2.467,88"  ;
+    schema:año   "2020"  .
+:638 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.000,72"  ;
+    schema:año   "2020"  .
+:639 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Atacama  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.939,07"  ;
+    schema:año   "2020"  .
+:640 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.387,43"  ;
+    schema:año   "2020"  .
+:641 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "27,93"  ;
+    schema:año   "2020"  .
+:642 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "14,35"  ;
+    schema:año   "2020"  .
+:643 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "110,14"  ;
+    schema:año   "2020"  .
+:644 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "776,85"  ;
+    schema:año   "2020"  .
+:645 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "712,13"  ;
+    schema:año   "2020"  .
+:646 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.428,55"  ;
+    schema:año   "2020"  .
+:647 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Coquimbo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "926,73"  ;
+    schema:año   "2020"  .
+:648 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.225,2"  ;
+    schema:año   "2020"  .
+:649 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "159,64"  ;
+    schema:año   "2020"  .
+:650 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "30,04"  ;
+    schema:año   "2020"  .
+:651 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "5,58"  ;
+    schema:año   "2020"  .
+:652 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.751,9"  ;
+    schema:año   "2020"  .
+:653 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2020"  .
+:654 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "385,28"  ;
+    schema:año   "2020"  .
+:655 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Valparaíso  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "294,47"  ;
+    schema:año   "2020"  .
+:656 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.246,92"  ;
+    schema:año   "2020"  .
+:657 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "54,2"  ;
+    schema:año   "2020"  .
+:658 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "52,82"  ;
+    schema:año   "2020"  .
+:659 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "30,92"  ;
+    schema:año   "2020"  .
+:660 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "894,97"  ;
+    schema:año   "2020"  .
+:661 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "36,15"  ;
+    schema:año   "2020"  .
+:662 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "580,09"  ;
+    schema:año   "2020"  .
+:663 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Libertador_General_Bernardo_O_Higgins  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "577,49"  ;
+    schema:año   "2020"  .
+:664 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.613,36"  ;
+    schema:año   "2020"  .
+:665 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "185,75"  ;
+    schema:año   "2020"  .
+:666 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "76,55"  ;
+    schema:año   "2020"  .
+:667 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "97,77"  ;
+    schema:año   "2020"  .
+:668 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.043,45"  ;
+    schema:año   "2020"  .
+:669 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "212,15"  ;
+    schema:año   "2020"  .
+:670 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.264,18"  ;
+    schema:año   "2020"  .
+:671 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Maule  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.532,02"  ;
+    schema:año   "2020"  .
+:672 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.426,55"  ;
+    schema:año   "2020"  .
+:673 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "121,94"  ;
+    schema:año   "2020"  .
+:674 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "32,66"  ;
+    schema:año   "2020"  .
+:675 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "16,76"  ;
+    schema:año   "2020"  .
+:676 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "432,67"  ;
+    schema:año   "2020"  .
+:677 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "35"  ;
+    schema:año   "2020"  .
+:678 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "3.440,95"  ;
+    schema:año   "2020"  .
+:679 rdf:type  :red_vial  ;
+    schema:en_region    :Región_del_Biobío  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "1.016,06"  ;
+    schema:año   "2020"  .
+:680 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.620,25"  ;
+    schema:año   "2020"  .
+:681 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "86,11"  ;
+    schema:año   "2020"  .
+:682 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "101,84"  ;
+    schema:año   "2020"  .
+:683 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "72,86"  ;
+    schema:año   "2020"  .
+:684 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "629,19"  ;
+    schema:año   "2020"  .
+:685 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "309,77"  ;
+    schema:año   "2020"  .
+:686 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "6.684,74"  ;
+    schema:año   "2020"  .
+:687 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_La_Araucanía  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.487,34"  ;
+    schema:año   "2020"  .
+:688 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.670,16"  ;
+    schema:año   "2020"  .
+:689 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "230,61"  ;
+    schema:año   "2020"  .
+:690 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "51,28"  ;
+    schema:año   "2020"  .
+:691 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "5,8"  ;
+    schema:año   "2020"  .
+:692 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "1.051,71"  ;
+    schema:año   "2020"  .
+:693 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,7"  ;
+    schema:año   "2020"  .
+:694 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "5.673,86"  ;
+    schema:año   "2020"  .
+:695 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Lagos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "248,72"  ;
+    schema:año   "2020"  .
+:696 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "296,64"  ;
+    schema:año   "2020"  .
+:697 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "151,11"  ;
+    schema:año   "2020"  .
+:698 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,26"  ;
+    schema:año   "2020"  .
+:699 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2020"  .
+:700 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "5,75"  ;
+    schema:año   "2020"  .
+:701 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "449,09"  ;
+    schema:año   "2020"  .
+:702 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.564,1"  ;
+    schema:año   "2020"  .
+:703 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Aysén_del_General_Carlos_Ibáñez_del_Campo  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "114,04"  ;
+    schema:año   "2020"  .
+:704 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "10,08"  ;
+    schema:año   "2020"  .
+:705 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "756,26"  ;
+    schema:año   "2020"  .
+:706 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1,3"  ;
+    schema:año   "2020"  .
+:707 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2020"  .
+:708 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "196,48"  ;
+    schema:año   "2020"  .
+:709 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "124,32"  ;
+    schema:año   "2020"  .
+:710 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.057,41"  ;
+    schema:año   "2020"  .
+:711 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Magallanes_y_la_Antártica_Chilena  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "313,07"  ;
+    schema:año   "2020"  .
+:712 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "1.449,05"  ;
+    schema:año   "2020"  .
+:713 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "108,9"  ;
+    schema:año   "2020"  .
+:714 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "98,46"  ;
+    schema:año   "2020"  .
+:715 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "42,65"  ;
+    schema:año   "2020"  .
+:716 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "859,56"  ;
+    schema:año   "2020"  .
+:717 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "0,54"  ;
+    schema:año   "2020"  .
+:718 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "191,53"  ;
+    schema:año   "2020"  .
+:719 rdf:type  :red_vial  ;
+    schema:en_region    :Región_Metropolitana_de_Santiago  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "117,14"  ;
+    schema:año   "2020"  .
+:720 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "841,53"  ;
+    schema:año   "2020"  .
+:721 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "59,74"  ;
+    schema:año   "2020"  .
+:722 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "102,41"  ;
+    schema:año   "2020"  .
+:723 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "29,85"  ;
+    schema:año   "2020"  .
+:724 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "758,89"  ;
+    schema:año   "2020"  .
+:725 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "4,93"  ;
+    schema:año   "2020"  .
+:726 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.584,48"  ;
+    schema:año   "2020"  .
+:727 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Los_Ríos  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "320,63"  ;
+    schema:año   "2020"  .
+:728 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "438,88"  ;
+    schema:año   "2020"  .
+:729 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0,23"  ;
+    schema:año   "2020"  .
+:730 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2020"  .
+:731 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "0"  ;
+    schema:año   "2020"  .
+:732 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "736,2"  ;
+    schema:año   "2020"  .
+:733 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "69,68"  ;
+    schema:año   "2020"  .
+:734 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "246,08"  ;
+    schema:año   "2020"  .
+:735 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Arica_y_Parinacota  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "826,22"  ;
+    schema:año   "2020"  .
+:736 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Asfalto"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "838,96"  ;
+    schema:año   "2020"  .
+:737 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "29,48"  ;
+    schema:año   "2020"  .
+:738 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Asfalto/Hormigón"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "6,53"  ;
+    schema:año   "2020"  .
+:739 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Caminos Básicos Intermedios"  ;
+    schema:tipo_red   "Red Vial Pavimentada"  ;
+    schema:kilometros   "7,42"  ;
+    schema:año   "2020"  .
+:740 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Capa Protección"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "342,92"  ;
+    schema:año   "2020"  .
+:741 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Granular Estabilizado"  ;
+    schema:tipo_red   "Soluciones Básicas"  ;
+    schema:kilometros   "17,46"  ;
+    schema:año   "2020"  .
+:742 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Ripio"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "2.630,64"  ;
+    schema:año   "2020"  .
+:743 rdf:type  :red_vial  ;
+    schema:en_region    :Región_de_Ñuble  ;
+    schema:tipo_carpeta   "Tierra"  ;
+    schema:tipo_red   "Red Vial No Pavimentada"  ;
+    schema:kilometros   "771,4"  ;
+    schema:año   "2020"  .
