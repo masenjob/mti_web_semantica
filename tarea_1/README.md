@@ -6,3 +6,5 @@ Para la realización de esta tarea, se utilizaron dos fuentes de datos: la prime
 Para ambos datos se elaboró un programa en Python que extrae dichos datos y los convierte a grafos RDF Turtle.
 
 El código elaborado se encuentra en un cuaderno Jupyter adjunto en la carpeta de la tarea, y que puede ser accedido en google Colab en https://colab.research.google.com/drive/1h98O-QYeMRsBBsv8ibM0SzV1I74maZXh?usp=sharing
+
+Los detalles y resultados obtenidos se encuentran en el documento https://github.com/masenjob/mti_web_semantica/raw/main/tarea_1/instrucciones_Tarea1.odt
