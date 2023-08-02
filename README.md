@@ -2,7 +2,7 @@
 ## Curso: Web Semántica y datos abiertos
 ### Profesor: Jose Emilio Labra Gayo
 
-# Tarea
+# Tarea - Fecha de entrega: 1 de agosto de 2023
 ### Enunciado
 ### Se realizarán 5 tareas obligatorias. Cada una de las tareas incluye una parte opcional para aumentar la nota.
 
