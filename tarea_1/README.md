@@ -1,5 +1,5 @@
  
-#Instrucciones Tarea 1
+Instrucciones Tarea 1
 
 Para la realización de esta tarea, se utilizaron dos fuentes de datos: la primera es un repositorio Github con los datos administrativos de Chile organizados en región/provincia/comuna, en formato JSON: https://github.com/knxroot/bdcut-cl/tree/master . la segunda son datos de Red Vial Nacional, en formato CSV, provenientes de https://datos.observatoriologistico.cl .
 
